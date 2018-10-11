@@ -16,7 +16,7 @@ print(np.fmax(x,y))	#max of x and y
 
 #populate arrays
 n = 100								#define an int
-z = np.arrange(n, dtype=float)		#get an array [0.0,n-1.]
+z = np.arange(n, dtype=float)		#get an array [0.0,n-1.]
 z *= 2.0*np.pi /float(n-1)			#z = [0, 2*pi]
 sin_z = np.sin(z)
 
